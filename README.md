@@ -65,6 +65,53 @@ The backend for the **Airbnb Clone** project is designed to provide a robust and
 
 ---
 
+## 🔐 API Security
+
+Security is a critical aspect of this project to ensure that user data, financial transactions, and system integrity are protected. The following measures are implemented across the backend to secure the APIs:
+
+### ✅ Authentication
+**Implementation:** Token-based authentication using JWT (JSON Web Tokens) or Django Token Authentication.  
+**Purpose:** Ensures that only registered users can access protected endpoints. Prevents unauthorized access to user profiles, bookings, and other sensitive operations.
+
+### ✅ Authorization
+**Implementation:** Role-based access control (RBAC).  
+**Purpose:** Restricts access to specific resources based on user roles (e.g., admin, host, guest). This prevents users from accessing or modifying resources they don't own or aren't permitted to interact with.
+
+### ✅ Input Validation & Sanitization
+**Implementation:** All incoming data is validated using serializers and forms.  
+**Purpose:** Prevents injection attacks such as SQL injection, cross-site scripting (XSS), and ensures the integrity of the data stored in the system.
+
+### ✅ Rate Limiting & Throttling
+**Implementation:** DRF's throttling mechanism.  
+**Purpose:** Protects the API from brute-force attacks and abuse by limiting the number of requests per user/IP over time.
+
+### ✅ HTTPS Enforcement
+**Implementation:** SSL/TLS certificates in production.  
+**Purpose:** Encrypts all data transmitted between the client and server, protecting against man-in-the-middle (MITM) attacks.
+
+### ✅ Secure Payment Handling
+**Implementation:** Payment processing is handled through secure third-party services.  
+**Purpose:** Ensures that financial data is not stored directly in our system, reducing risk and complying with PCI-DSS guidelines.
+
+### ✅ CORS Configuration
+**Implementation:** CORS headers are configured to allow only trusted frontend origins.  
+**Purpose:** Prevents malicious websites from interacting with the API via cross-origin requests.
+
+---
+
+### 🛡️ Why API Security Matters
+
+- **User Data Protection:** Personal data like names, contact details, and payment information must be protected to maintain trust and comply with data protection regulations (e.g., GDPR).
+- **Booking and Payment Integrity:** Securing booking endpoints ensures that transactions are valid, non-repudiable, and not duplicated or forged.
+- **System Stability:** Rate limiting and proper error handling ensure the platform remains reliable and is not overwhelmed by malicious or accidental overuse.
+- **Preventing Unauthorized Access:** Ensures only legitimate users interact with their own data or roles, especially important in multi-role systems like hosts and guests.
+
+---
+
+Security is not a one-time setup but an ongoing priority. We regularly update dependencies, monitor for vulnerabilities, and apply best practices throughout development and deployment.
+
+
+
 ## Database Design 📌 Endpoints Overview
 
 ### 👤 Users
