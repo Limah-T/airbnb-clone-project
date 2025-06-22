@@ -65,7 +65,7 @@ The backend for the **Airbnb Clone** project is designed to provide a robust and
 
 ---
 
-## 📌 Endpoints Overview
+## Database Design 📌 Endpoints Overview
 
 ### 👤 Users
 - `GET /users/` - List users  
