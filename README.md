@@ -124,3 +124,36 @@ python manage.py runserver
 Built with ❤️ by Limah Temitope
 📧 Email: limahtechnology@yahoo.com
 🔗 LinkedIn: https://www.linkedin.com/in/limah-temitope/
+
+## 👥 Team Roles
+
+This project was built through the collaborative effort of a multidisciplinary team. Below are the key roles and their responsibilities:
+
+### 🔧 Backend Developer
+Responsible for building the server-side logic, APIs, authentication system, and integrating with the database. Ensures that all endpoints perform as expected and are scalable, secure, and well-documented.
+
+### 🗄️ Database Administrator (DBA)
+Designs and manages the structure of the PostgreSQL database. Responsible for setting up indexing, backup strategies, data migration, performance tuning, and ensuring data integrity.
+
+### 🧪 QA Engineer (Tester)
+Develops and executes test plans to ensure features meet requirements. Responsible for identifying bugs, writing test cases (unit/integration), and collaborating closely with developers to resolve issues.
+
+### 🎨 Frontend Developer
+Builds the user-facing portion of the application (if applicable). Works closely with the backend team to integrate API responses into the UI and ensures a seamless user experience.
+
+### 🚀 DevOps Engineer
+Manages the CI/CD pipeline, Docker containerization, environment variables, and deployment to the production server. Also ensures high availability and reliability through monitoring tools and load balancing.
+
+### 📄 Technical Writer
+Documents the API (using OpenAPI/Swagger), maintains the `README.md`, and ensures internal and external users can understand the system architecture, endpoints, and usage instructions.
+
+### 🧠 Product Manager
+Defines the goals of the project and ensures team alignment with the overall business objectives. Responsible for feature prioritization, timelines, and stakeholder communication.
+
+### 🤝 Project Lead / Team Coordinator
+Facilitates collaboration among team members, monitors task completion, and ensures the project is progressing according to plan. Often acts as a bridge between technical and non-technical stakeholders.
+
+---
+
+--- This breakdown ensures transparency and role clarity for all contributors. Each member’s effort played a crucial part in the successful delivery of this project.
+---
