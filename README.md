@@ -17,7 +17,7 @@ The backend for the **Airbnb Clone** project is designed to provide a robust and
 
 ---
 
-## 🛠️ Features Overview
+## 🛠️ Feature Breakdown
 
 ### 1. API Standards
 - **REST API:** Built using Django REST Framework (DRF).
