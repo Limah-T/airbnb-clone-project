@@ -110,6 +110,35 @@ Security is a critical aspect of this project to ensure that user data, financia
 
 Security is not a one-time setup but an ongoing priority. We regularly update dependencies, monitor for vulnerabilities, and apply best practices throughout development and deployment.
 
+## 🔁 CI/CD Pipeline
+
+### 🧠 What is CI/CD?
+
+CI/CD stands for **Continuous Integration** and **Continuous Deployment** (or Delivery). It is a development practice that enables teams to deliver code changes more frequently and reliably by automating the stages of software delivery.
+
+- **Continuous Integration (CI):** Automatically builds and tests code whenever changes are pushed to the repository. This ensures that new code integrates smoothly with the existing codebase.
+- **Continuous Deployment/Delivery (CD):** Automatically deploys code to staging or production environments once it passes tests, reducing manual intervention and speeding up release cycles.
+
+### 🚀 Importance of CI/CD in This Project
+
+- **Faster Development:** Automates testing and deployment, saving time and effort.
+- **Improved Code Quality:** Ensures that all code passes tests before being merged or deployed.
+- **Early Bug Detection:** CI checks catch bugs early in the development cycle.
+- **Reliable Deployments:** CD pipelines ensure consistent and error-free deployment of updates to the application.
+- **Team Collaboration:** Developers can work in parallel without worrying about breaking the main application.
+
+### 🛠️ Tools Used
+
+- **GitHub Actions:** Automates the workflow for running tests, linting, and deploying the application on code push or pull requests.
+- **Docker:** Ensures consistency across development, testing, and production environments using containerized applications.
+- **Docker Compose:** Used to define and manage multi-container services (e.g., Django + PostgreSQL + Redis).
+- **Heroku / Render / Railway (optional):** For automatic deployment to cloud hosting platforms.
+- **pytest / unittest:** For running automated tests during the CI process.
+- **Black / flake8:** For code formatting and linting checks in CI.
+
+---
+
+With CI/CD in place, we ensure our Airbnb Clone backend remains robust, secure, and always production-ready.
 
 
 ## Database Design 📌 Endpoints Overview
